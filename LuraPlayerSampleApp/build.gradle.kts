@@ -70,7 +70,6 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "../libs", "include" to listOf("*.aar"))))
-    implementation(files("../luraplayercontrols/libs/LuraPlayer.aar"))
     implementation(project(":LuraPlayerControls"))
 
     //Android
