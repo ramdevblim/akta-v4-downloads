@@ -1,0 +1,217 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="#4C4C4C"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_background_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottom_background_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <View
+        android:id="@+id/top_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/lura_control_bar_top_background"
+        app:layout_constraintBottom_toTopOf="@id/top_background_guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bottom_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/lura_control_bar_bottom_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bottom_background_guideline" />
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_button_container"
+        app:layout_constraintEnd_toStartOf="@+id/top_button_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Sintel" />
+
+    <LinearLayout
+        android:id="@+id/top_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleView">
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.akta.luraplayercontrols.ui.LuraImageButton
+            android:id="@+id/muteUnmuteView"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:background="@drawable/new_lura_button_selector"
+            android:contentDescription="@string/mute"
+            android:scaleType="center"
+            android:src="@drawable/ic_mute_off" />
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.akta.luraplayercontrols.ui.LuraImageButton
+            android:id="@+id/settingsView"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:background="@drawable/new_lura_button_selector"
+            android:contentDescription="@string/settings"
+            android:scaleType="center"
+            android:src="@drawable/ic_settings" />
+
+    </LinearLayout>
+
+    <com.akta.luraplayercontrols.ui.LuraTimeView
+        android:id="@+id/luraTimeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/new_lura_button_transparent_selector"
+        android:focusable="true"
+        android:gravity="start"
+        android:paddingStart="4dp"
+        android:textColor="@color/lura_text_color"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_button_container"
+        app:layout_constraintEnd_toStartOf="@+id/bottom_button_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottom_button_container" />
+
+    <LinearLayout
+        android:id="@+id/bottom_button_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.akta.luraplayercontrols.ui.LuraImageButton
+            android:id="@+id/subtitleView"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:background="@drawable/lura_button_selector"
+            android:contentDescription="@string/subtitles"
+            android:scaleType="center"
+            android:src="@drawable/ic_subtitle" />
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.akta.luraplayercontrols.ui.LuraImageButton
+            android:id="@+id/pipView"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:background="@drawable/lura_button_selector"
+            android:scaleType="center"
+            android:src="@drawable/ic_pip" />
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <com.akta.luraplayercontrols.ui.LuraImageButton
+            android:id="@+id/fullscreenView"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:background="@drawable/lura_button_selector"
+            android:contentDescription="@string/fullscreen"
+            android:scaleType="center"
+            android:src="@drawable/ic_fullscreen" />
+
+    </LinearLayout>
+
+    <com.akta.luraplayercontrols.ui.LuraSeekBarWithMarks
+        android:id="@+id/seekbarView"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:focusable="true"
+        android:max="0"
+        android:progressDrawable="@drawable/lura_progress_seek"
+        android:splitTrack="false"
+        android:thumb="@drawable/seekbar_thumb_round"
+        android:thumbOffset="5dp"
+        android:thumbTint="@color/seek_bar_red"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_button_container"
+        app:layout_constraintEnd_toEndOf="@+id/bottom_button_container"
+        app:layout_constraintStart_toStartOf="@+id/luraTimeView" />
+
+    <com.akta.luraplayercontrols.ui.LuraSeekView
+        android:id="@+id/seekForwardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/lura_button_selector"
+        android:padding="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/playPauseView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playPauseView"
+        app:layout_constraintTop_toTopOf="@+id/playPauseView"
+        app:luraSeekTime="15 sec"
+        app:luraSrc="@drawable/seek_forward"
+        tools:visibility="visible" />
+
+    <com.akta.luraplayercontrols.ui.LuraSeekView
+        android:id="@+id/seekBackwardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lura_button_selector"
+        android:padding="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/playPauseView"
+        app:layout_constraintEnd_toStartOf="@+id/playPauseView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/playPauseView"
+        app:luraSeekTime="10 sec"
+        app:luraSrc="@drawable/seek_backward"
+        tools:visibility="visible" />
+
+    <com.akta.luraplayercontrols.ui.LuraImageButton
+        android:id="@+id/playPauseView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/new_lura_button_rounded_selector"
+        android:contentDescription="@string/play"
+        android:scaleType="center"
+        android:src="@drawable/play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</merge>

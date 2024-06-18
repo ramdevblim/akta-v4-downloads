@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/groupItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textColor="@color/white" />
+
+    <com.akta.luraplayercontrols.ui.LuraImageButton
+        android:id="@+id/infoItem"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/lura_button_selector"
+        android:contentDescription="@string/remove"
+        android:src="@android:drawable/ic_dialog_info" />
+</LinearLayout>

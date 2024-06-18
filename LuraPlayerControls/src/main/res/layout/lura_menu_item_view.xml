@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lura_menu_selector"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/luraSettingIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/playback_speed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/luraSettingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/lura_text_color"
+        android:textSize="15sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/luraSettingValue"
+        app:layout_constraintStart_toEndOf="@+id/luraSettingIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="18dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/luraSettingValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="11dp"
+        android:textAlignment="center"
+        android:textColor="@color/lura_text_color"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/luraSettingArrow"
+        app:layout_constraintStart_toEndOf="@id/luraSettingName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/luraSettingArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/playback_speed"
+        android:src="@drawable/next_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

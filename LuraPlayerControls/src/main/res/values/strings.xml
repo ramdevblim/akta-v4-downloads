@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">LuraPlayerSDK</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="replay">Replay</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="error">Error</string>
+    <string name="seek">Seek</string>
+    <string name="playlist">Playlist</string>
+    <string name="settings">Settings</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="fullscreen">Fullscreen On</string>
+    <string name="fullscreen_on">Fullscreen Off</string>
+    <string name="subtitles">Subtitles</string>
+    <string name="preview">Preview</string>
+    <string name="lura_video_time" formatted="true">%s/%s</string>
+    <string name="skip">Skip</string>
+    <string name="skippFormatString">%02d:%02d:%02d</string>
+    <string name="luraAdTitle">Your video will continue after ads.</string>
+    <string name="luraSettingPlaybackSpeedTitle">Playback speed</string>
+    <string name="luraSettingSubtitlesTitle">Subtitles/CC</string>
+    <string name="luraSettingAudioTitle">Audio</string>
+    <string name="luraSettingQualityTitle">Quality</string>
+    <string name="luraPlaybackSpeedNormal">Normal</string>
+    <string name="luraAutoBitrate">Auto (%.0f kbps)</string>
+    <string name="luraAuto">Auto</string>
+    <string name="luraBitrate">%.0f kbps</string>
+    <string-array name="luraSettingNames">
+        <item>@string/luraSettingPlaybackSpeedTitle</item>
+        <item>@string/luraSettingSubtitlesTitle</item>
+        <item>@string/luraSettingQualityTitle</item>
+    </string-array>
+    <string-array name="luraCaptionAndAudioNames">
+        <item>@string/luraSettingSubtitlesTitle</item>
+        <item>@string/luraSettingAudioTitle</item>
+    </string-array>
+    <integer-array name="luraSettingIcons">
+        <item>@drawable/playback</item>
+        <item>@drawable/subtitles</item>
+        <item>@drawable/quality</item>
+    </integer-array>
+    <string-array name="luraPlaybackSpeedNames">
+        <item>0.25</item>
+        <item>0.50</item>
+        <item>0.75</item>
+        <item>@string/luraPlaybackSpeedNormal</item>
+        <item>1.25</item>
+        <item>1.50</item>
+        <item>1.75</item>
+        <item>2.00</item>
+    </string-array>
+    <string name="lura_back">back</string>
+    <string name="lura_close">close</string>
+    <string name="luraSkipAd">Skip Ad</string>
+    <string name="luraCanSkipAdAfterSecond">%s</string>
+    <string name="luraAdCountInfo">Ad %d / %d</string>
+    <string name="luraAd">Ad</string>
+    <string name="luraLive">LIVE</string>
+    <string name="luraOff">Off</string>
+    <string name="luraTrack">Track %d</string>
+    <string name="luraAnnotation">Annotation</string>
+    <string name="luraAnnotationIntro">Skip intro</string>
+    <string name="luraAnnotationOutro">Skip outro</string>
+    <string name="luraOfflineNotificationChannel">LuraOffline</string>
+    <string name="captionFontTitle">Font</string>
+    <string name="captionFontSizeTitle">Font Size</string>
+    <string name="captionTextColorTitle">Text Color</string>
+    <string name="captionTextOpacityTitle">Text Opacity</string>
+    <string name="captionBackgroundColorTitle">Background Color</string>
+    <string name="captionBackgroundOpacityTitle">Background Opacity</string>
+    <string name="captionHighlightColorTitle">Highlight Color</string>
+    <string name="captionHighlightOpacityTitle">Highlight Opacity</string>
+    <string name="captionCapitalizeTitle">Capitalize</string>
+    <string-array name="captionNames">
+        <item>@string/captionFontTitle</item>
+        <item>@string/captionFontSizeTitle</item>
+        <item>@string/captionTextColorTitle</item>
+        <item>@string/captionTextOpacityTitle</item>
+        <item>@string/captionBackgroundColorTitle</item>
+        <item>@string/captionBackgroundOpacityTitle</item>
+        <item>@string/captionHighlightColorTitle</item>
+        <item>@string/captionHighlightOpacityTitle</item>
+        <item>@string/captionCapitalizeTitle</item>
+    </string-array>
+    <string name="captionMonospacedSerifFont">Monospaced Serif</string>
+    <string name="captionProportionalSerifFont">Proportional Serif</string>
+    <string name="captionMonospacedSansSerifFont">Monospaced Sans-Serif</string>
+    <string name="captionProportionalSansSerifFont">Proportional Sans-Serif</string>
+    <string name="captionCasualFont">Casual</string>
+    <string name="captionCursiveFont">Cursive</string>
+    <string name="captionSmallCapitalsSerifFont">Small Capitals Serif</string>
+    <string name="captionSmallCapitalsSansSerifFont">Small Capitals Sans Serif</string>
+    <string-array name="captionFonts">
+        <item>@string/captionMonospacedSerifFont</item>
+        <item>@string/captionProportionalSerifFont</item>
+        <item>@string/captionMonospacedSansSerifFont</item>
+        <item>@string/captionProportionalSansSerifFont</item>
+        <item>@string/captionCasualFont</item>
+        <item>@string/captionCursiveFont</item>
+        <item>@string/captionSmallCapitalsSerifFont</item>
+        <item>@string/captionSmallCapitalsSansSerifFont</item>
+    </string-array>
+    <string name="captionFontSizeAuto">Auto</string>
+    <string name="captionFontSize12px">12px</string>
+    <string name="captionFontSize16px">16px</string>
+    <string name="captionFontSize20px">20px</string>
+    <string name="captionFontSize24px">24px</string>
+    <string name="captionFontSize28px">28px</string>
+    <string name="captionFontSize32px">32px</string>
+    <string name="captionFontSize36px">36px</string>
+    <string name="captionFontSize40px">40px</string>
+    <string name="captionFontSize44px">44px</string>
+    <string name="captionFontSize48px">48px</string>
+    <string name="captionFontSize52px">52px</string>
+    <string name="captionFontSize60px">60px</string>
+    <string-array name="captionFontSizes">
+        <item>@string/captionFontSizeAuto</item>
+        <item>@string/captionFontSize12px</item>
+        <item>@string/captionFontSize16px</item>
+        <item>@string/captionFontSize20px</item>
+        <item>@string/captionFontSize24px</item>
+        <item>@string/captionFontSize28px</item>
+        <item>@string/captionFontSize32px</item>
+        <item>@string/captionFontSize36px</item>
+        <item>@string/captionFontSize40px</item>
+        <item>@string/captionFontSize44px</item>
+        <item>@string/captionFontSize48px</item>
+        <item>@string/captionFontSize52px</item>
+        <item>@string/captionFontSize60px</item>
+    </string-array>
+    <string name="captionWhiteColor">White</string>
+    <string name="captionTurqoiseColor">Turqoise</string>
+    <string name="captionBlueColor">Blue</string>
+    <string name="captionGreenColor">Green</string>
+    <string name="captionYellowColor">Yellow</string>
+    <string name="captionMagentaColor">Magenta</string>
+    <string name="captionRedColor">Red</string>
+    <string name="captionBlackColor">Black</string>
+    <string-array name="captionColors">
+        <item>@string/captionWhiteColor</item>
+        <item>@string/captionTurqoiseColor</item>
+        <item>@string/captionBlueColor</item>
+        <item>@string/captionGreenColor</item>
+        <item>@string/captionYellowColor</item>
+        <item>@string/captionMagentaColor</item>
+        <item>@string/captionRedColor</item>
+        <item>@string/captionBlackColor</item>
+    </string-array>
+    <string name="captionOpacity0">0%</string>
+    <string name="captionOpacity25">25%</string>
+    <string name="captionOpacity50">50%</string>
+    <string name="captionOpacity75">75%</string>
+    <string name="captionOpacity100">100%</string>
+    <string-array name="captionTextOpacities">
+        <item>@string/captionOpacity50</item>
+        <item>@string/captionOpacity75</item>
+        <item>@string/captionOpacity100</item>
+    </string-array>
+    <string-array name="captionBackgroundOpacities">
+        <item>@string/captionOpacity0</item>
+        <item>@string/captionOpacity25</item>
+        <item>@string/captionOpacity50</item>
+        <item>@string/captionOpacity75</item>
+        <item>@string/captionOpacity100</item>
+    </string-array>
+    <string-array name="captionHighlightOpacities">
+        <item>@string/captionOpacity0</item>
+        <item>@string/captionOpacity25</item>
+        <item>@string/captionOpacity50</item>
+        <item>@string/captionOpacity75</item>
+        <item>@string/captionOpacity100</item>
+    </string-array>
+    <string name="captionCapitalizeOn">On</string>
+    <string name="captionCapitalizeOff">Off</string>
+    <string-array name="captionCapitalizes">
+        <item>@string/captionCapitalizeOn</item>
+        <item>@string/captionCapitalizeOff</item>
+    </string-array>
+</resources>

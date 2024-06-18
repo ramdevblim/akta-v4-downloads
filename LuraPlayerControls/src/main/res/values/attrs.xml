@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LuraPlayerView">
+        <attr name="useControls" format="boolean" />
+        <attr name="isFullscreen" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LuraSeekView">
+        <attr name="luraSrc" format="reference" />
+        <attr name="luraSeekTime" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LuraMenuItemView">
+        <attr name="luraItemImage" format="reference" />
+        <attr name="luraItemName" format="string" />
+        <attr name="luraItemValue" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LuraControlBarView">
+        <attr name="showTitle" format="boolean" />
+    </declare-styleable>
+</resources>

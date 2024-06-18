@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- OLD APP STRINGS -->
+
+    <string name="offline_playback">Çevrimdışı Oynatma</string>
+
+    <string name="play">Oynat</string>
+    <string name="replay">Tekrarla</string>
+    <string name="stop">Durdur</string>
+    <string name="remove">Kaldır</string>
+    <string name="info">Bilgi</string>
+    <string name="remove_all">Hepsini Kaldır</string>
+    <string name="pause_all">Hepsini Duraklat</string>
+    <string name="paused">Duraklatıldı</string>
+    <string name="abort">İptal</string>
+    <string name="resume_all">Hepsini Devam Ettir</string>
+    <string name="resolution">Çözünürlük</string>
+    <string name="max_parallel_download">Maximum Paralel İndirme:</string>
+    <string name="starting">Başlıyor</string>
+    <string name="queued">Sırada</string>
+    <string name="downloading">İndiriliyor</string>
+    <string name="downloaded">İndirildi</string>
+    <string name="error">Hata</string>
+    <string name="warning">Uyarı</string>
+    <string name="removing">Kaldırılıyor</string>
+    <string name="licence_expired">Lisans Geçersiz</string>
+    <string name="licence_updating">Lisans Güncelleniyor</string>
+    <string name="licence_update_failed">Lisans Güncelleme Başarısız</string>
+    <string name="storage_dialog_title">İzin Verilen Depolama</string>
+    <string name="settings">Ayarlar</string>
+    <string name="storage">Depolama</string>
+    <string name="options">Seçenekler</string>
+    <string name="offline_progress">- %d%%</string>
+
+    <string name="download_requirement">İndirme Gereksinimi</string>
+    <string name="max_parallel_limit">Maximum Paralel Limit</string>
+
+
+    <!-- ****************** -->
+
+
+    <!-- MODERN APP STRINGS -->
+
+    <string name="edit">Düzenle</string>
+    <string name="download">İndir</string>
+    <string name="resume">Devam Et</string>
+    <string name="pause">Duraklat</string>
+    <string name="delete">Sil</string>
+    <string name="more">More</string>
+    <string name="cancel">İptal</string>
+    <string name="recommendations">Önerilenler</string>
+    <string name="copy">Kopyala</string>
+    <string name="ok">Tamam</string>
+    <string name="close">Close</string>
+    <string name="empty_view_title">İndirme Yok</string>
+    <string name="empty_view_info">İndirilen bütün videolar burada görüntülenecek.</string>
+    <string name="parallel_downloads_info">Maximum Aynı Anda İndirme</string>
+    <string name="offline_failed">Çevrimdışı Başarısız</string>
+    <string name="network_requirement_not_met">Ağ ayarlarını kontrol edin</string>
+    <string name="select_all">Hepsini Seç</string>
+    <string name="end_of_partial_content">İndirilen içeriğin sonuna ulaştınız</string>
+
+    <string name="settings_title_downloads">İndirilenler</string>
+    <string name="settings_item_wifi_only">Sadece Wi-Fi</string>
+    <string name="settings_item_storage">Depolama</string>
+    <string name="settings_item_parallel_downloads">Paralel İndirme</string>
+    <string name="settings_item_video_quality">Video Kalitesi</string>
+
+    <string name="storage_info">%s kullanılacak</string>
+    <string name="storage_used">%s Kullanımda</string>
+    <string name="storage_remaining">%s Kalan</string>
+
+    <string name="configuration_dialog_title">Lura Configuration</string>
+    <string name="configuration_topic_general">General</string>
+    <string name="configuration_topic_licence">Licence</string>
+    <string name="configuration_asset_id">Asset ID:&#160;%s</string>
+    <string name="configuration_progress">Progress:&#160;%s</string>
+    <string name="configuration_total_bytes">Total Bytes:&#160;%s</string>
+    <string name="configuration_current_bytes">Current Bytes:&#160;%s</string>
+    <string name="configuration_state">State:&#160;%s</string>
+    <string name="configuration_start_time">Start Time (ms):&#160;\n%s</string>
+    <string name="configuration_update_time">Update Time (ms):&#160;\n%s</string>
+    <string name="configuration_licence">Licence</string>
+    <string name="configuration_licence_total_playback_duration">Total Playback Duration:&#160;%s</string>
+    <string name="configuration_licence_expiration_duration">Expiration Duration:&#160;%s</string>
+
+    <string name="action_sheet_title">İndirme Kalitesi</string>
+    <string name="ask_each_time">Her seferinde sor</string>
+    <string name="sd">SD</string>
+    <string name="hd">HD</string>
+    <string name="full_hd">Full HD</string>
+    <string name="ultra_hd">Ultra HD</string>
+
+    <string name="bottom_menu_home">Ana Sayfa</string>
+    <string name="bottom_menu_vertical">Dikey</string>
+    <string name="bottom_menu_downloads">İndirilenler</string>
+    <string name="bottom_menu_settings">Ayarlar</string>
+
+    <string name="popup_menu_item_stats">Veriler</string>
+    <string name="popup_menu_item_renew">Yenile</string>
+    <string name="popup_menu_item_delete">Sil</string>
+    <string name="popup_menu_item_download">İndir</string>
+    <string name="popup_menu_item_resume">Devam Et</string>
+    <string name="popup_menu_item_pause">Duraklat</string>
+
+    <string name="confirmation_title_delete_multiple">Seçili Videoları Kaldır</string>
+    <string name="confirmation_message_delete_multiple">Cihazınızdan tüm seçilen videoları silmek istediğinizden emin misiniz?</string>
+    <string name="confirmation_title_delete">Video Kaldır</string>
+    <string name="confirmation_message_delete">Cihazınızdan bu videoyu silmek istediğinizden emin misiniz?</string>
+
+    <!-- ****************** -->
+
+    <!--        String resources available to override      -->
+
+    <string name="luraSettingPlaybackSpeedTitle">Oynatma Hızı</string>
+    <string name="luraSettingSubtitlesTitle">Altyazılar</string>
+    <string name="luraSettingQualityTitle">Kalite</string>
+    <string name="luraPlaybackSpeedNormal">Normal</string>
+
+    <string name="luraLive">Canlı Yayın</string>
+
+    <string name="luraSkipAd">Reklamı Atla</string>
+    <string name="luraAdTitle" formatted="true">Video reklamlardan sonra devam edicek.</string>
+
+    <string name="luraAutoBitrate">Oto (%.0f Kb/sn)</string>
+    <string name="luraAuto">Oto</string>
+
+    <string name="luraBitrate">%.0f Kb/sn</string>
+
+    <string name="luraAnnotationIntro">Girişi atla</string>
+    <string name="luraAnnotationOutro">Kredileri atla</string>
+
+    <string name="luraOff">Kapalı</string>
+    <string name="luraTrack">%d parçasını izle</string>
+</resources>

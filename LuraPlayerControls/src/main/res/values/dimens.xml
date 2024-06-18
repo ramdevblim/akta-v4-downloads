@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_size">48dp</dimen>
+    <dimen name="skip_button_height">36dp</dimen>
+    <dimen name="skip_button_width">100dp</dimen>
+    <dimen name="seekbar_height">5dp</dimen>
+    <dimen name="ad_mark_width">2dp</dimen>
+
+</resources>

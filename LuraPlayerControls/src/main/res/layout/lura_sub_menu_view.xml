@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:background="#000000">
+
+    <LinearLayout
+        android:id="@+id/lura_sub_menu_top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/lura_sub_menu_back"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:contentDescription="@string/lura_back"
+            android:padding="18dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/lura_sub_menu_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:paddingStart="6dp"
+            android:text="@string/playback_speed"
+            android:textColor="@color/lura_text_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/lura_sub_menu_close"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_gravity="end"
+            android:contentDescription="@string/lura_close"
+            android:scaleType="center"
+            android:src="@drawable/ic_exit" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lura_sub_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constrainedHeight="true"
+        tools:listitem="@layout/lura_sub_menu_item_view" />
+</LinearLayout>

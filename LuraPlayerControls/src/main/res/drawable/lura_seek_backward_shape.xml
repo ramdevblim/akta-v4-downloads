@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemForwardBg"
+        android:bottom="0dp"
+        android:left="-130dp"
+        android:right="0dp"
+        android:top="0dp">
+        <shape
+            android:innerRadius="130dp"
+            android:shape="oval"
+            android:useLevel="true">
+            <solid android:color="@color/white30" />
+        </shape>
+    </item>
+    <item
+        android:width="24dp"
+        android:height="18dp"
+        android:drawable="@drawable/seek_backward"
+        android:gravity="center" />
+</layer-list>

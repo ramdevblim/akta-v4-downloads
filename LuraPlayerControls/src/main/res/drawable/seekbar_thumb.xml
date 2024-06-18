@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="2dp"
+    android:height="@dimen/seekbar_height"
+    android:viewportWidth="1"
+    android:viewportHeight="1">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M0 0H3V24H0z" />
+</vector>

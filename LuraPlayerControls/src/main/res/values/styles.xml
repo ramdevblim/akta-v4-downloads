@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="LuraAdSkipButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:contentDescription">@string/skip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/skip_button_selector</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_width">@dimen/skip_button_width</item>
+        <item name="android:layout_height">@dimen/skip_button_height</item>
+    </style>
+
+</resources>

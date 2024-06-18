@@ -1,0 +1,206 @@
+[
+  {
+    "groupTitle": "VOD",
+    "configs": [
+      {
+        "title": "Charge (DW)",
+        "preview": "charge",
+        "config": {
+          "lura": {
+            "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
+            "assetId": "4147070"
+          },
+          "cast": {
+            "chromecast": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      {
+        "title": "Rebelde Capítulo 1 (DW)",
+        "preview": "tears_of_steel",
+        "config": {
+          "lura": {
+            "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
+            "assetId": "4321817"
+          },
+          "cast": {
+            "chromecast": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      {
+        "title": "Heroes del Norte (DW)",
+        "preview": "big_buck_bunny",
+        "config": {
+          "lura": {
+            "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
+            "assetId": "2743481"
+          },
+          "cast": {
+            "chromecast": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      {
+        "title": "Protected DRM (DW)",
+        "preview": "elephants_dream",
+        "config": {
+          "lura": {
+            "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
+            "assetId": "3998220"
+          },
+          "cast": {
+            "chromecast": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      {
+        "title": "Sintel (DW)",
+        "preview": "sintel",
+        "config": {
+          "lura": {
+            "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
+            "assetId": "5179686"
+          },
+          "cast": {
+            "chromecast": {
+              "enabled": true
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "groupTitle": "Live",
+    "configs": [
+      {
+        "title": "Live | Bip Bop Live Stream",
+        "preview": "slate",
+        "config": {
+          "lura": {
+            "appKey": "Y6eDni4GVojJkFXi9kK1sB91TVivlTHtjUg_k8GRTOIvTx-0QwB8flXOLJqHcr6cWRFOfOC1_exIm9QXpOb9GY6qN5kTS5zr13_aLv2Je9Q",
+            "assetId": "adstaqXzd6jYdJrp"
+          },
+          "cast": {
+            "chromecast": {
+              "enabled": true
+            }
+          }
+        }
+      },
+      {
+        "title": "Live Preroll VAST",
+        "config": {
+          "ads": {
+            "clientSide": {
+              "provider": "generic",
+              "generic": {
+                "breaks": [
+                  {
+                    "url": "https://nxs.mp.lura.live/v1/vmapgen?cues=start&lura_pal_nonce=[LURA_PAL_NONCE]"
+                  }
+                ]
+              }
+            }
+          },
+          "lura": {
+            "appKey": "Lnz5ENV7YOn_NevzMapn6CVtyLF4Z5LLavJhfGuF99LLa--DKXbUDM1GrAbbGED2SBtqtApkOczuOlqQvNglX2UjLP9oqU-_aZLYjuJtxvE",
+            "assetId": "adstrlZNdAqDd4gX"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "groupTitle": "Vertical videos",
+    "configs": [
+      {
+        "title": "Vertical Farming",
+        "config": {
+          "lura": {
+            "appKey": "BT_CIFvWgn-YmZdODcAh-F9q9fzVH02UGsIss_bHyPOjZPd6utZKRl1E_Xm-SBfiFW-XKeUWICWCgEKe3ynj920DpZt6swtV4u5d0yUwBjo",
+            "assetId": "942758"
+          },
+          "controls": {
+            "layout": "vertical",
+            "loop": true
+          }
+        }
+      },
+      {
+        "title": "Jaguars",
+        "config": {
+          "lura": {
+            "appKey": "BT_CIFvWgn-YmZdODcAh-F9q9fzVH02UGsIss_bHyPOjZPd6utZKRl1E_Xm-SBfiFW-XKeUWICWCgEKe3ynj920DpZt6swtV4u5d0yUwBjo",
+            "assetId": "942756"
+          },
+          "controls": {
+            "layout": "vertical",
+            "loop": true
+          }
+        }
+      },
+      {
+        "title": "Vertical 1",
+        "config": {
+          "lura": {
+            "appKey": "UAO0x_xCPfr4Em7q7gl4ek0pz92C4hsHc2XLBYZcoE0GapBC_F169TXDlIFA7f0UvYed0N5uumvnCJKqUJ3reaQ4nqkC6G9m4LE7AaLMyoU",
+            "assetId": "942627"
+          },
+          "controls": {
+            "layout": "vertical",
+            "loop": true
+          }
+        }
+      },
+      {
+        "title": "Vertical 2",
+        "config": {
+          "lura": {
+            "appKey": "UAO0x_xCPfr4Em7q7gl4ek0pz92C4hsHc2XLBYZcoE0GapBC_F169TXDlIFA7f0UvYed0N5uumvnCJKqUJ3reaQ4nqkC6G9m4LE7AaLMyoU",
+            "assetId": "942702"
+          },
+          "controls": {
+            "layout": "vertical",
+            "loop": true
+          }
+        }
+      },
+      {
+        "title": "Vertical 3",
+        "config": {
+          "lura": {
+            "appKey": "UAO0x_xCPfr4Em7q7gl4ek0pz92C4hsHc2XLBYZcoE0GapBC_F169TXDlIFA7f0UvYed0N5uumvnCJKqUJ3reaQ4nqkC6G9m4LE7AaLMyoU",
+            "assetId": "942701"
+          },
+          "controls": {
+            "layout": "vertical",
+            "loop": true
+          }
+        }
+      },
+      {
+        "title": "Vertical 4",
+        "config": {
+          "lura": {
+            "appKey": "UAO0x_xCPfr4Em7q7gl4ek0pz92C4hsHc2XLBYZcoE0GapBC_F169TXDlIFA7f0UvYed0N5uumvnCJKqUJ3reaQ4nqkC6G9m4LE7AaLMyoU",
+            "assetId": "942700"
+          },
+          "controls": {
+            "layout": "vertical",
+            "loop": true
+          }
+        }
+      }
+    ]
+  }
+]

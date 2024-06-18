@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="turqoise">#40E0D0</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="translucent">#59000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="lura_text_color">#FFFFFF</color>
+    <color name="white40">#66FFFFFF</color>
+    <color name="white30">#4DFFFFFF</color>
+    <color name="ad_progress_color">#FFFFFF00</color>
+    <color name="seek_bar_red">#E50909</color>
+    <color name="lura_menu_bg_color">#E6181A1B</color>
+    <color name="configTextColor">#4169E1</color>
+    <color name="buttonPressed">#33FFFFFF</color>
+    <color name="buttonFocused">#19FFFFFF</color>
+    <color name="buttonActivated">#E50909</color>
+    <color name="live">#E50909</color>
+    <color name="liveAD">#F3C54D</color>
+</resources>
