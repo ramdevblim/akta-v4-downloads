@@ -48,12 +48,12 @@
         }
       },
       {
-        "title": "Protected DRM (DW)",
+        "title": "Movie (Subtitles)",
         "preview": "elephants_dream",
         "config": {
           "lura": {
             "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
-            "assetId": "3998220"
+            "assetId": "4463948"
           },
           "cast": {
             "chromecast": {
@@ -63,12 +63,12 @@
         }
       },
       {
-        "title": "Sintel (DW)",
+        "title": "Protected DRM (DW)",
         "preview": "sintel",
         "config": {
           "lura": {
             "appKey": "zoFB7zVZiuIux7VLuNb8zzAjzvJNL6LRPFawKOZ9ZTVAuAQrNPwNBq5naRtbSde2DUQ5yXyaJ1iB8Lq3bTVxRSYvSOYCVl-PaFkt5jOCSQ0",
-            "assetId": "5179686"
+            "assetId": "3998220"
           },
           "cast": {
             "chromecast": {

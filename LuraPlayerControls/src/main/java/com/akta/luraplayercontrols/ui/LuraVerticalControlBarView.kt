@@ -249,8 +249,8 @@ class LuraVerticalControlBarView : ConstraintLayout, SeekBar.OnSeekBarChangeList
         }
         seekButtonsClickListener = OnClickListener {
             resetHideRunnable()
-            if (it.id == R.id.seekForwardView) player?.seekForward()
-            else if (it.id == R.id.seekBackwardView) player?.seekBackward()
+            if (it.id == R.id.seekForwardView) player?.seek(15 * 1000)
+            else if (it.id == R.id.seekBackwardView) player?.seek(-15 * 1000)
         }
         settingsButtonClickListener = OnClickListener {
             showPopupWindow(LuraPopupType.Settings)

@@ -99,7 +99,7 @@ class LuraAdControlView : ConstraintLayout {
         View.inflate(context, R.layout.lura_ad_view, this)
         setOnClickListener {
             if (isShowingControls) {
-                player?.clickAd()
+                //player?.clickAd()
             } else {
                 showControls()
             }

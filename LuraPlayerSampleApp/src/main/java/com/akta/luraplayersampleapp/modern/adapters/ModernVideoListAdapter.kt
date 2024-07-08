@@ -18,6 +18,7 @@ import com.akta.luraplayer.api.LuraOfflineEventListener
 import com.akta.luraplayer.api.configs.offline.LuraOfflineConfiguration
 import com.akta.luraplayer.api.enums.LuraDownloadingState
 import com.akta.luraplayer.api.enums.LuraOfflineVideoResolution
+import com.akta.luraplayer.api.logger.LuraLog
 import com.akta.luraplayer.api.offline.LuraOfflineManager
 import com.akta.luraplayer.api.offline.LuraOfflineVideo
 import com.akta.luraplayer.api.offline.event.LuraOfflineEventData
@@ -560,7 +561,7 @@ class ModernVideoListAdapter(
             offline = null
         } else {
             offline = luraOffline.getVideo(video.config)
-            isDownloadable = video.title?.contains("(DW)") ?: false
+            isDownloadable = true// video.title?.contains("(DW)") ?: false
         }
 
         var state = if (isDownloadable) ItemState.DOWNLOADABLE else ItemState.NOT_DOWNLOADABLE
@@ -619,7 +620,7 @@ class ModernVideoListAdapter(
         var infoSeparatorVisibility = View.GONE
 
         var action: (() -> Unit)? = null
-
+        LuraLog.d("LuraAdapter", "$state")
         when (state) {
             ItemState.NOT_DOWNLOADABLE -> {
 
