@@ -120,6 +120,7 @@ class LuraControlBarView : ConstraintLayout, SeekBar.OnSeekBarChangeListener,
                         isDelayedLive = false
 
                     setIsPlaying(true)
+                    player?.hideNonLinearAd("pause")
                 }
 
                 LuraEventType.ENDED -> seekBar.setDots(adMarks)
@@ -129,6 +130,7 @@ class LuraControlBarView : ConstraintLayout, SeekBar.OnSeekBarChangeListener,
                         setTime(LuraEventData.TimeUpdate())
                     }
                     setIsPlaying(false)
+                    player?.showNonLinearAd("pause")
                 }
 
                 LuraEventType.CASTING_REQUESTED -> {
